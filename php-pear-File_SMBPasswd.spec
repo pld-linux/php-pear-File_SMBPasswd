@@ -1,18 +1,18 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		File
 %define		_subclass	SMBPasswd
-%define		_status		beta
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - class for managing SAMBA style password files
 Summary(pl):	%{_pearname} - klasa do zarz±dzania plikami z has³ami SAMBY
 Name:		php-pear-%{_pearname}
-Version:	0.9.0
+Version:	1.0.0
 Release:	1
 License:	BSD
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	525405cf2881a04849e8bfd025e5e7d4
+# Source0-md5:	efc273c183fbf2524089f15c92fc8fa6
 URL:		http://pear.php.net/package/File_SMBPasswd/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
