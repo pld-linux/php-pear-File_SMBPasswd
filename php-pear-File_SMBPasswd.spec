@@ -1,8 +1,9 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       SMBPasswd
+%define		_class		File
+%define		_subclass	SMBPasswd
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - class for managing SAMBA style password files
 Summary(pl):	%{_pearname} - klasa do zarz±dzania plikami z has³ami SAMBY
 Name:		php-pear-%{_pearname}
