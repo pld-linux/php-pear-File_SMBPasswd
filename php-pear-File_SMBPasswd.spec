@@ -1,5 +1,3 @@
-# ToDo:
-# - pl description
 %include	/usr/lib/rpm/macros.php
 %define         _class          File
 %define         _subclass       SMBPasswd
@@ -24,6 +22,12 @@ With this package, you can maintain smbpasswd-files, usualy used by
 SAMBA.
 
 This class has in PEAR status: %{_status}.
+
+%description -l pl
+Przy u¿yciu tego pakietu mo¿na zarz±dzaæ plikami smbpasswd, u¿ywanymi
+zwykle przez SAMBÊ.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
