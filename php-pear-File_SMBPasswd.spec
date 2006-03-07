@@ -15,6 +15,7 @@ Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	dcb06b21db84f1bf64cf94eb364d8fb9
 URL:		http://pear.php.net/package/File_SMBPasswd/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-mhash
 Requires:	php-pear
