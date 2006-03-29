@@ -8,7 +8,7 @@ Summary:	%{_pearname} - class for managing SAMBA style password files
 Summary(pl):	%{_pearname} - klasa do zarz±dzania plikami z has³ami SAMBY
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
-Release:	2
+Release:	3
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
