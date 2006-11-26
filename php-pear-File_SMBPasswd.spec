@@ -8,7 +8,7 @@ Summary:	%{_pearname} - class for managing SAMBA style password files
 Summary(pl):	%{_pearname} - klasa do zarz±dzania plikami z has³ami SAMBY
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
-Release:	3
+Release:	4
 Epoch:		0
 License:	BSD
 Group:		Development/Languages/PHP
@@ -18,7 +18,7 @@ URL:		http://pear.php.net/package/File_SMBPasswd/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-mhash
+Requires:	php(mhash)
 Requires:	php-pear
 Requires:	php-pear-Crypt_CHAP >= 1.0.0
 BuildArch:	noarch
