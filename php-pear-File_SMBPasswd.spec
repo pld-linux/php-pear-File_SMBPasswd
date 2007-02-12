@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - class for managing SAMBA style password files
-Summary(pl):	%{_pearname} - klasa do zarz±dzania plikami z has³ami SAMBY
+Summary(pl.UTF-8):   %{_pearname} - klasa do zarzÄ…dzania plikami z hasÅ‚ami SAMBY
 Name:		php-pear-%{_pearname}
 Version:	1.0.2
 Release:	4
@@ -30,9 +30,9 @@ SAMBA.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Przy u¿yciu tego pakietu mo¿na zarz±dzaæ plikami smbpasswd, u¿ywanymi
-zwykle przez SAMBÊ.
+%description -l pl.UTF-8
+Przy uÅ¼yciu tego pakietu moÅ¼na zarzÄ…dzaÄ‡ plikami smbpasswd, uÅ¼ywanymi
+zwykle przez SAMBÄ˜.
 
 Ta klasa ma w PEAR status: %{_status}.
 
